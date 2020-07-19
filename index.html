@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAL3nLNwWcUmKPVZlNepsEYzAC650BoRsI",
+    authDomain: "canvas-part-1-da182.firebaseapp.com",
+    databaseURL: "https://canvas-part-1-da182.firebaseio.com",
+    projectId: "canvas-part-1-da182",
+    storageBucket: "canvas-part-1-da182.appspot.com",
+    messagingSenderId: "546026874681",
+    appId: "1:546026874681:web:53ee244824cfdfb261eae8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  </head>
+  <body>
+   <script src="sketch.js"></script>
+
+   <div id ="canvascontainer"></div>
+
+   <p>
+     <button id= "clearButton">clear</button>
+   </p>
+
+</body>
+</html>
